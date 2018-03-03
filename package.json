@@ -1,0 +1,26 @@
+{
+  "name": "get-abs-path",
+  "version": "1.0.0",
+  "description": "Get absolute path of file names",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balou9/get-abs-path.git"
+  },
+  "keywords": [
+    "absolute",
+    "path"
+  ],
+  "author": "Emmanuel Owosekun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Balou9/get-abs-path/issues"
+  },
+  "homepage": "https://github.com/Balou9/get-abs-path#readme",
+  "dependencies": {
+    "tape": "^4.9.0"
+  }
+}
