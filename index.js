@@ -1,13 +1,13 @@
 var path = require('path')
 
-function fullPath (file) {
-  return path.join(process.cwd(), '\/', file)
+function fullPath (dir, file) {
+  return path.join(dir, '\/', file)
 }
 
-function getAbsPath (arr) {
+function getAbsPath (dir, arr) {
   var chunk = []
   for (var i = 0; i < arr.length; i++){
-    chunk.push(fullPath(arr[i]))
+    chunk.push(fullPath(dir, arr[i]))
   }
   return chunk
 }
