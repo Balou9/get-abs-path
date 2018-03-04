@@ -1,6 +1,6 @@
 {
   "name": "get-abs-path",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Get absolute path of file names",
   "main": "index.js",
   "scripts": {
