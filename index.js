@@ -1,7 +1,7 @@
 var path = require('path')
 
 function fullPath (dir, file) {
-  return path.join(dir, '\/', file)
+  return path.join(dir, file)
 }
 
 function getAbsPath (dir, arr) {
